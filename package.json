@@ -1,23 +1,31 @@
 {
-  "name": "passport-mongo",
+  "name": "Auth-Passport",
   "version": "1.0.0",
-  "description": "",
+  "description": "A sample for passport use.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.3",
     "debug": "^3.0.0",
+    "ejs": "^2.5.7",
     "express": "^4.15.4",
+    "express-session": "^1.15.5",
     "jade": "^1.11.0",
+    "method-override": "^2.3.9",
     "mongoose": "^4.11.6",
     "morgan": "^1.8.2",
     "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth": "^1.0.0",
     "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
     "static-favicon": "^2.0.0-alpha"
   }
 }
