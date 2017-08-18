@@ -1,8 +1,9 @@
-<!doctype html>
-<html>
-    <body>
-        <h1>Welcome!</h1>
-        <div>Full Name: <%= full_name %></div>
-        <div>User Name: <%= user_name %> </div>
-    </body>
-</html>
+<p>
+    ID: <%= user.id %><br/>
+    Username: <%= user.username %><br/>
+    Name: <%= user.displayName %><br/>
+    <% if (user.emails) { %>
+    Email: <%= user.emails[0].value %><br/>
+    <% } %>
+    </p>
+    <a href="/logout">Log out</a>
